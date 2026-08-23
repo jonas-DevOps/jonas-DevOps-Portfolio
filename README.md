@@ -13,10 +13,15 @@
 <p>
   <img src="https://img.shields.io/badge/Status-Em%20constante%20evolução-58a6ff?style=for-the-badge" alt="Status: Em constante evolução" />
   <img src="https://img.shields.io/badge/Foco-Full%20Stack%20%26%20DevOps-8b949e?style=for-the-badge" alt="Foco: Full Stack e DevOps" />
-  <img src="https://img.shields.io/badge/Portfólio-Next.js%20%2B%20TypeScript-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Portfólio em Next.js e TypeScript" />
+  <a href="https://jonas-dev-ops-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfólio-Next.js%20%2B%20TypeScript-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Portfólio em Next.js e TypeScript" />
+  </a>
 </p>
 
 <p>
+  <a href="https://jonas-dev-ops-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20Portfólio-Acessar%20Site-58a6ff?style=flat-square" alt="Acessar Portfólio Online" />
+  </a>
   <a href="https://github.com/jonas-DevOps">
     <img src="https://img.shields.io/badge/GitHub-jonas--DevOps-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
@@ -335,16 +340,30 @@ Projetos que representam diferentes etapas da minha evolução em software, prod
 | **🌱 Irrigação Inteligente** | Protótipo com ESP32, sensores e reservatório, incluindo regras de segurança e comparação de controle PID × Fuzzy. | ESP32, C/C++, PID, Fuzzy, sensores, IoT |
 | **🥩 Charcutaria Mantovani** | Plataforma desenvolvida a partir de necessidades de um cliente real, envolvendo catálogo, pedidos PF/PJ, estoque, lotes e gestão. | Figma, UX/UI, requisitos, MVP, processos |
 
-> Este README e o site do portfólio evoluem junto com os projetos. Conforme cada solução ganhar repositório público ou demonstração online, os respectivos links poderão ser adicionados aqui e no portfólio.
+> Este portfólio evolui junto com os projetos. Conforme cada solução ganhar repositório público ou demonstração online, os respectivos links poderão ser adicionados aqui.
 
 ---
 
-## 🌐 Este repositório também é meu portfólio
+## 🌐 Portfólio Online
 
-O repositório **`jonas-DevOps/jonas-DevOps`** possui duas funções:
+Este repositório contém o **código-fonte do meu portfólio web**, desenvolvido para apresentar minha trajetória, projetos, tecnologias, formação e evolução profissional de forma mais completa e interativa.
 
-1. apresentar meu perfil diretamente no GitHub por meio deste `README.md`;
-2. armazenar o código-fonte do meu portfólio web, preparado para publicação na Vercel.
+<div align="center">
+
+<a href="https://jonas-dev-ops-portfolio.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/🌐%20Acessar-Portfólio%20Online-58a6ff?style=for-the-badge"
+    alt="Acessar Portfólio Online"
+  />
+</a>
+
+<br/><br/>
+
+🔗 **Deploy oficial:** [https://jonas-dev-ops-portfolio.vercel.app/](https://jonas-dev-ops-portfolio.vercel.app/)
+
+</div>
+
+O projeto é mantido separadamente do repositório especial do meu perfil no GitHub, mantendo a apresentação do perfil e o código do portfólio organizados em seus respectivos repositórios.
 
 ### Stack do portfólio
 
@@ -373,7 +392,7 @@ jonas-DevOps/
 ├── components/       # Componentes reutilizáveis da interface
 ├── data/             # Conteúdo central do portfólio
 ├── public/           # Imagens e arquivos públicos
-├── README.md         # Apresentação do perfil e do projeto
+├── README.md         # Documentação do portfólio
 └── package.json      # Scripts e dependências
 ```
 
@@ -397,6 +416,25 @@ npm run lint
 npm run typecheck
 npm run build
 ```
+
+### 🚀 Deploy
+
+O portfólio está publicado na **Vercel** e disponível em:
+
+<div align="center">
+
+### 🌐 [https://jonas-dev-ops-portfolio.vercel.app/](https://jonas-dev-ops-portfolio.vercel.app/)
+
+<a href="https://jonas-dev-ops-portfolio.vercel.app/" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Vercel-Abrir%20Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white"
+    alt="Abrir deploy na Vercel"
+  />
+</a>
+
+</div>
+
+---
 
 ### ✏️ Atualização rápida de conteúdo
 
