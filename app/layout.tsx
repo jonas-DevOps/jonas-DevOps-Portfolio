@@ -3,7 +3,13 @@ import type { ReactNode } from "react";
 import "./globals.css";
 import { profile } from "@/data/portfolio";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://jonas-devops.vercel.app";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000")
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
