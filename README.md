@@ -100,9 +100,9 @@ Atualmente venho desenvolvendo e participando de projetos envolvendo **aplicaç�
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=jonas-DevOps&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=ff79c6&area=true&hide_border=true"
+    src="https://jonas-dev-ops-portfolio.vercel.app/api/github-activity?username=jonas-DevOps"
     width="100%"
-    alt="Gráfico de atividade recente"
+    alt="Gráfico de atividade recente do GitHub"
   />
 </p>
 
