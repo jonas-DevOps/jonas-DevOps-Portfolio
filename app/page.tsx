@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { SectionTitle } from "@/components/section-title";
 import { education, focusAreas, profile, projects, skillGroups } from "@/data/portfolio";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const areaNumbers = ["01", "02", "03", "04", "05", "06"];
 
